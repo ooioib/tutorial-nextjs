@@ -77,9 +77,9 @@ export default function AppHeader({ target, subTarget }) {
                     variant="text"
                     color="inherit"
                     disableRipple={true}
-                    sx={{ textTransform: "none" }}
+                    sx={{ textTransform: "none", fontWeight: "bold" }}
                   >
-                    <strong>{subTarget}</strong>
+                    {subTarget}
                   </Button>
                 </Link>
               )}
